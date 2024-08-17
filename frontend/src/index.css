@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color: #101010;
+    font-family: "Nunito", sans-serif;
+}
+
+.search-username {
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+.main {
+    text-align: center;
+}
+
+.search-user {
+    padding: 15px;
+    width: 30%;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    background-image: url('/leetcode.png');
+    background-size: 20px 20px; /* Adjust size as needed */
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Adjust position as needed */
+    padding-left: 40px; /* Ensure text doesn't overlap with the icon */
+}
+
+.search-user:active {
+    border: none;
+}
+
+.stats {
+    text-align: left;
+    width: 600px;
+    height: 273px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(82, 82, 82);
+    position: relative;
+    left: 29.9%;
+    top: 30px;
+    border-radius: 10px;
+}
+
+p {
+    margin-left: 30px;
+    color: white;
+}
+
+h3 {
+    font-weight: 800;
+    color: grey;
+}
+
+.contest-stats {
+    text-align: left;
+    width: 600px;
+    height: 273px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(82, 82, 82);
+    position: relative;
+    left: 29.9%;
+    top: 50px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.cont-stats-head {
+    margin-left: 30px;
+    color: white;
+    font-weight: 800;
+    color: grey;
+}
+
+.search-contest {
+    padding: 15px;
+    width: 70%;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-left: 30px;
+    font-size: 15px;
+    position: relative;
+    bottom: 5px;
+}
+
+.search-contest-btn {
+    padding: 15px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    /* width: ; */
+    position: relative;
+    bottom: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    transition: 300ms ease;
+}
+
+.search-contest-btn:hover {
+    transform: translateY(-2px);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.search-contest-btn:active {
+    transform: translateY(0px);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.contest-scroll {
+    width: 90%;
+    height: 50%;
+    background-color: rgb(28, 28, 28);
+    position: relative;
+    left: 5%;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* Enable vertical scrolling */
+    overflow-x: hidden;
+    
+}
+
+.each-contest {
+    position: relative;
+    left: 2.5%;
+    top: 10%;
+    width: 92%;
+    height: 50px;
+    background-color: rgba(84, 84, 84, 0);
+    border-radius: 10px;
+    padding-left: 15px;
+    transition: 300ms ease;
+    color: white;
+}
+
+.each-contest:hover {
+    background-color: grey;
+    color: black;
+    transition: 300ms ease;
+    cursor: pointer;
+
+}
+
+.prob-solved,
+.contest-rank,
+.min-solved,
+.contest-name {
+    display: inline;
+}
+
+.prob-solved {
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+
+.contest-rank {
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+
+.contest-name {
+    position: relative;
+    right: 13px;
+    top: 15px;
+}
+
+.min-solved {
+    position: relative;
+    left: 90px;
+    top: 15px;
+}
+
+.contest-scroll::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.contest-scroll::-webkit-scrollbar-track {
+    background: #444; 
+    border-radius: 10px;
+    border-radius: 20px;
+}
+
+.contest-scroll::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+    border: 3px solid #444; 
+    border-radius: 20px;
+}
+
+.contest-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #55555500; 
+
+}
+
+.contest-scroll {
+    scrollbar-width: thin; 
+    scrollbar-color: #323232 #44444400; 
+    
+}
+
+.contest-scroll {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
